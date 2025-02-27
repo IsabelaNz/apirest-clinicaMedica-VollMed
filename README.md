@@ -63,7 +63,7 @@
 
 <ol>
   <li><strong>Clone o repositório:</strong></li>
-  <pre><code>git clone https://github.com/seu-usuario/nome-do-repositorio.git</code></pre>
+  <pre><code>git clone https://github.com/IsabelaNz/apirest-clinicaMedica-VollMed.gitt</code></pre>
   
   <li><strong>Configure o banco de dados MySQL</strong> e ajuste as credenciais no arquivo <strong>application.properties</strong></li>
   
