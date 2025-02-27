@@ -1,37 +1,47 @@
-Objetivos
-Desenvolvimento de uma API Rest
-CRUD (Create, Read, Update e Delete)
-Validações
-Paginação e ordenação
-O objetivo neste curso é usarmos o Spring Boot para desenvolvermos uma API Rest, com algumas funcionalidades. A ideia é desenvolver um CRUD, sendo as quatro operações fundamentais das aplicações: cadastro, listagem, atualização e exclusão de informações.
+📌 API Rest - Clínica Médica Voll Med
+📋 Objetivos
+Desenvolvimento de uma API Rest com as seguintes funcionalidades:
+✅ CRUD (Create, Read, Update e Delete)
+✅ Validações de entrada de dados
+✅ Paginação e ordenação de informações
 
-Isto é, aprenderemos a desenvolver um CRUD de uma API Rest usando o Spring Boot.
+Este projeto utiliza o Spring Boot para criar uma API que permite o gerenciamento de médicos, pacientes e consultas.
 
-Vamos ver também como aplicar validações das informações que chegam na nossa API, usando o Bean Validation. Depois, vamos aprender a utilizar o conceito de paginação e ordenação das informações que a nossa API vai devolver.
+🚀 Tecnologias Utilizadas
+As principais tecnologias e ferramentas aplicadas no projeto são:
 
-Tecnologias
-Spring Boot 3
-Java 17
-Lombok
-MySQL/ Flyway
-JPA/Hibernate
-Maven
-Insomnia
+Spring Boot 3 → Framework principal para o desenvolvimento da API
+Java 17 → Última versão LTS do Java, garantindo maior suporte e estabilidade
+Lombok → Redução de código repetitivo através de anotações
+MySQL + Flyway → Banco de dados relacional e versionamento de migrações
+JPA/Hibernate → Persistência de dados de forma simplificada
+Maven → Gerenciamento de dependências e build do projeto
+Insomnia → Testes e simulação de requisições à API
+💡 O que vamos aprender?
+Durante o desenvolvimento desta API, exploraremos conceitos fundamentais, como:
+🔹 Implementação de um CRUD completo para médicos e pacientes
+🔹 Uso do Bean Validation para validar dados de entrada
+🔹 Aplicação de paginação e ordenação de registros
+🔹 Gerenciamento do banco de dados com Flyway Migrations
+🔹 Integração com JPA/Hibernate para facilitar o acesso aos dados
 
-Faremos tudo isso usando algumas tecnologias, como Spring Boot 3, sendo a última versão disponibilizada pelo framework. Usaremos, também, o Java 17 sendo a última versão LTS (Long-term support, em português "Suporte de longo prazo") que possui maior tempo de suporte disponível para o Java.
+🏥 Sobre o Projeto
+A API foi desenvolvida para atender uma clínica médica fictícia chamada Voll Med. O objetivo é possibilitar:
+✔ Cadastro, consulta, atualização e remoção de médicos e pacientes
+✔ Agendamento e cancelamento de consultas
 
-Aprenderemos a usar alguns recursos das últimas versões do Java para deixarmos o nosso código mais simples. Utilizaremos em conjunto com o projeto o Lombok, responsável por fazer a geração de códigos repetitivos, como getters, setters, toString, entre outros. Tudo via anotações para o código ficar menos verboso.
+Com essa aplicação, a clínica poderá gerenciar melhor seus profissionais de saúde e pacientes, garantindo mais eficiência nos atendimentos.
 
-Usaremos o banco de dados MySQL para armazenar as informações da API e junto com ele utilizaremos a biblioteca Flyway. Isso para termos o controle do histórico de evolução do banco de dados, um conceito que chamamos de Migration.
+🛠 Como testar a API?
+1️⃣ Clone o repositório:
 
-A camada de persistência da nossa aplicação será feita com a JPA (Java Persistence API), com o Hibernate como implementação dessa especificação e usando os módulos do Spring Boot, para tornar esse processo o mais simples possível.
+sh
+Copiar
+Editar
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+2️⃣ Configure o banco de dados MySQL e as credenciais no application.properties
+3️⃣ Execute a aplicação via Maven ou IDE
+4️⃣ Utilize o Insomnia ou outra ferramenta para testar os endpoints
 
-Usaremos o Maven para gerenciar as dependências do projeto, e também para gerar o build da nossa aplicação. Por último, como focaremos na API Rest (apenas no Back-end), não teremos interface gráfica, como páginas HTML e nem Front-end e aplicativo mobile.
-
-Mas para testarmos a API, usaremos o Insomnia, sendo uma ferramenta usada para testes em API. Com ela, conseguimos simular a requisição para a API e verificar se as funcionalidades implementadas estão funcionando.
-
-Qual é o nosso projeto?
-
-Trabalharemos em um projeto de uma clínica médica fictícia. Temos uma empresa chamada Voll Med, que possui uma clínica que precisa de um aplicativo para monitorar o cadastro de médicos, pacientes e agendamento de consultas.
-
-Será um aplicativo com algumas opções, em que a pessoa que for usar pode fazer o CRUD, tanto de médicos quanto de pacientes e o agendamento e cancelamento das consultas.
+📌 Conclusão
+Este projeto é uma excelente oportunidade para aprender e praticar conceitos essenciais do Spring Boot no desenvolvimento de APIs modernas e escaláveis.
