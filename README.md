@@ -1,47 +1,81 @@
-📌 API Rest - Clínica Médica Voll Med
-📋 Objetivos
-Desenvolvimento de uma API Rest com as seguintes funcionalidades:
-✅ CRUD (Create, Read, Update e Delete)
-✅ Validações de entrada de dados
-✅ Paginação e ordenação de informações
+# 📌 API Rest - Clínica Médica Voll Med  
 
-Este projeto utiliza o Spring Boot para criar uma API que permite o gerenciamento de médicos, pacientes e consultas.
+## 📋 Objetivos  
 
-🚀 Tecnologias Utilizadas
-As principais tecnologias e ferramentas aplicadas no projeto são:
+<p>Desenvolvimento de uma <strong>API Rest</strong> com as seguintes funcionalidades:</p>
 
-Spring Boot 3 → Framework principal para o desenvolvimento da API
-Java 17 → Última versão LTS do Java, garantindo maior suporte e estabilidade
-Lombok → Redução de código repetitivo através de anotações
-MySQL + Flyway → Banco de dados relacional e versionamento de migrações
-JPA/Hibernate → Persistência de dados de forma simplificada
-Maven → Gerenciamento de dependências e build do projeto
-Insomnia → Testes e simulação de requisições à API
-💡 O que vamos aprender?
-Durante o desenvolvimento desta API, exploraremos conceitos fundamentais, como:
-🔹 Implementação de um CRUD completo para médicos e pacientes
-🔹 Uso do Bean Validation para validar dados de entrada
-🔹 Aplicação de paginação e ordenação de registros
-🔹 Gerenciamento do banco de dados com Flyway Migrations
-🔹 Integração com JPA/Hibernate para facilitar o acesso aos dados
+<ul>
+  <li>✅ CRUD (Create, Read, Update e Delete)</li>
+  <li>✅ Validações de entrada de dados</li>
+  <li>✅ Paginação e ordenação de informações</li>
+</ul>
 
-🏥 Sobre o Projeto
-A API foi desenvolvida para atender uma clínica médica fictícia chamada Voll Med. O objetivo é possibilitar:
-✔ Cadastro, consulta, atualização e remoção de médicos e pacientes
-✔ Agendamento e cancelamento de consultas
+<p>Este projeto utiliza o <strong>Spring Boot</strong> para criar uma API que permite o gerenciamento de médicos, pacientes e consultas.</p>
 
-Com essa aplicação, a clínica poderá gerenciar melhor seus profissionais de saúde e pacientes, garantindo mais eficiência nos atendimentos.
+<hr>
 
-🛠 Como testar a API?
-1️⃣ Clone o repositório:
+## 🚀 Tecnologias Utilizadas  
 
-sh
-Copiar
-Editar
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-2️⃣ Configure o banco de dados MySQL e as credenciais no application.properties
-3️⃣ Execute a aplicação via Maven ou IDE
-4️⃣ Utilize o Insomnia ou outra ferramenta para testar os endpoints
+<p>As principais tecnologias e ferramentas aplicadas no projeto são:</p>
 
-📌 Conclusão
-Este projeto é uma excelente oportunidade para aprender e praticar conceitos essenciais do Spring Boot no desenvolvimento de APIs modernas e escaláveis.
+<ul>
+  <li><strong>Spring Boot 3</strong> → Framework principal para o desenvolvimento da API</li>
+  <li><strong>Java 17</strong> → Última versão LTS do Java, garantindo maior suporte e estabilidade</li>
+  <li><strong>Lombok</strong> → Redução de código repetitivo através de anotações</li>
+  <li><strong>MySQL + Flyway</strong> → Banco de dados relacional e versionamento de migrações</li>
+  <li><strong>JPA/Hibernate</strong> → Persistência de dados de forma simplificada</li>
+  <li><strong>Maven</strong> → Gerenciamento de dependências e build do projeto</li>
+  <li><strong>Insomnia</strong> → Testes e simulação de requisições à API</li>
+</ul>
+
+<hr>
+
+## 💡 O que vamos aprender?  
+
+<p>Durante o desenvolvimento desta API, exploraremos conceitos fundamentais, como:</p>
+
+<ul>
+  <li>🔹 Implementação de um <strong>CRUD completo</strong> para médicos e pacientes</li>
+  <li>🔹 Uso do <strong>Bean Validation</strong> para validar dados de entrada</li>
+  <li>🔹 Aplicação de <strong>paginação e ordenação</strong> de registros</li>
+  <li>🔹 Gerenciamento do banco de dados com <strong>Flyway Migrations</strong></li>
+  <li>🔹 Integração com <strong>JPA/Hibernate</strong> para facilitar o acesso aos dados</li>
+</ul>
+
+<hr>
+
+## 🏥 Sobre o Projeto  
+
+<p>A API foi desenvolvida para atender uma <strong>clínica médica fictícia chamada Voll Med</strong>.</p>
+
+<p>O objetivo é possibilitar:</p>
+
+<ul>
+  <li>✔ <strong>Cadastro, consulta, atualização e remoção</strong> de médicos e pacientes</li>
+  <li>✔ <strong>Agendamento e cancelamento</strong> de consultas</li>
+</ul>
+
+<p>Com essa aplicação, a clínica poderá gerenciar melhor seus profissionais de saúde e pacientes, garantindo mais eficiência nos atendimentos.</p>
+
+<hr>
+
+## 🛠 Como testar a API?  
+
+<ol>
+  <li><strong>Clone o repositório:</strong></li>
+  <pre><code>git clone https://github.com/seu-usuario/nome-do-repositorio.git</code></pre>
+  
+  <li><strong>Configure o banco de dados MySQL</strong> e ajuste as credenciais no arquivo <strong>application.properties</strong></li>
+  
+  <li><strong>Execute a aplicação</strong> via Maven ou diretamente na sua IDE</li>
+  
+  <li><strong>Utilize o Insomnia</strong> (ou outra ferramenta) para testar os endpoints</li>
+</ol>
+
+<hr>
+
+## 📌 Conclusão  
+
+<p>Este projeto é uma excelente oportunidade para aprender e praticar conceitos essenciais do <strong>Spring Boot</strong> no desenvolvimento de APIs modernas e escaláveis.</p>
+
+<p>🔥 <strong>Bora codar?</strong> 🚀</p>
