@@ -29,4 +29,12 @@ public class Medico {
 
     @Embedded // Indica que o atributo endereco é um objeto incorporado dentro da entidade Medico, representando um componente da entidade
     private Endereco endereco;
+
+    public Medico(DadosCadastroMedico dados) {
+        this.nome = dados.nome();
+        this.email = dados.email();
+        this.crm = dados.crm();
+        this.especialidade = dados.especialidade();
+        this.endereco = new Endereco(dados.endereco());
+    }
 }
