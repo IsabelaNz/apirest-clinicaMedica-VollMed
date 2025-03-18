@@ -20,6 +20,9 @@ public record DadosCadastroMedico(
         @Email
         String email,
 
+        @NotBlank
+        String telefone,
+
         // O campo "crm" não pode ser vazio nem nulo, e deve corresponder a uma expressão regular que permite entre 4 e 6 dígitos
         @NotBlank
         @Pattern(regexp = "\\d{4,6}")  // O CRM deve ter entre 4 e 6 dígitos numéricos
