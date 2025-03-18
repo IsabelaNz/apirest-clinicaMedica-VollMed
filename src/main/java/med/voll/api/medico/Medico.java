@@ -16,10 +16,8 @@ import med.voll.api.endereco.Endereco;
 
 public class Medico {
 
-    @Id // Define que este atributo é a chave primária da tabela
-    @GeneratedValue(strategy = GenerationType.IDENTITY) // Configura a estratégia de geração do ID como autoincremento no banco de dados
+    @Id @GeneratedValue(strategy = GenerationType.IDENTITY) // Configura a estratégia de geração do ID como autoincremento no banco de dados
     private Long id;
-
     private String nome;
     private String email;
     private String crm;
