@@ -27,11 +27,14 @@ public class Medico {
     @Enumerated(EnumType.STRING) // Mapeia o enum para ser armazenado como texto (STRING) no banco de dados
     private Especialidade especialidade;
 
+    private Boolean ativo;
+
     @Embedded
     // Indica que o atributo endereco é um objeto incorporado dentro da entidade Medico, representando um componente da entidade
     private Endereco endereco;
 
     public Medico(DadosCadastroMedico dados) {
+        this.ativo = true;
         this.nome = dados.nome();
         this.email = dados.email();
         this.telefone = dados.telefone();
@@ -94,4 +97,7 @@ public class Medico {
 
     }
 
+    public void excluir() {
+        this.ativo = false;
+    }
 }
