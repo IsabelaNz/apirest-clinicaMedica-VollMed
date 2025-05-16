@@ -1,12 +1,9 @@
-package med.voll.api.medico;
+package med.voll.api.dominio.medico;
 
 import jakarta.persistence.*; // Importa as anotações do JPA
-import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import med.voll.api.endereco.Endereco;
+import med.voll.api.dominio.endereco.Endereco;
 
 @Table(name = "medicos") // Especifica o nome da tabela no banco de dados
 @Entity(name = "medicos") // Indica que essa classe representa uma entidade JPA, mapeando-a para a tabela "medicos"

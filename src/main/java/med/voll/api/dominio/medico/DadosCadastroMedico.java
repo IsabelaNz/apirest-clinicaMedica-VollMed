@@ -1,4 +1,4 @@
-package med.voll.api.medico;
+package med.voll.api.dominio.medico;
 
 // Importa as anotações de validação do Jakarta Validation (antes conhecido como Hibernate Validator)
 import jakarta.validation.Valid;  // Valida se o objeto relacionado (endereço) deve ser validado também
@@ -6,7 +6,7 @@ import jakarta.validation.constraints.Email;  // Valida que o campo seja um e-ma
 import jakarta.validation.constraints.NotBlank;  // Garante que o campo não seja vazio ou nulo
 import jakarta.validation.constraints.NotNull;  // Garante que o campo não seja nulo
 import jakarta.validation.constraints.Pattern;  // Permite validar um campo com expressão regular
-import med.voll.api.endereco.DadosEndereco;  // Importa a classe DadosEndereco, que contém informações de endereço
+import med.voll.api.dominio.endereco.DadosEndereco;  // Importa a classe DadosEndereco, que contém informações de endereço
 
 // Classe que representa os dados necessários para cadastrar um médico (utilizando o conceito de record)
 public record DadosCadastroMedico(
