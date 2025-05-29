@@ -3,6 +3,7 @@ package med.voll.api.dominio.usuario;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
+import lombok.Getter;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -14,6 +15,7 @@ import java.util.List;
 @Table(name = "usuarios")
 @Entity(name = "Usuarios")
 @EqualsAndHashCode(of = "id")
+@Getter
 public class Usuario implements UserDetails {
 
     @Id
