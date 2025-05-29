@@ -18,6 +18,10 @@ import java.util.List;
 @Getter
 public class Usuario implements UserDetails {
 
+    public String getLogin() {
+        return login;
+    }
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
